@@ -2,7 +2,7 @@
 
 A robust command-line TCP port scanner written in C that demonstrates fundamental networking concepts and systems programming skills. This project showcases socket programming, TCP/IP networking, and system-level programming techniques essential for networking and embedded software engineering roles.
 
-## 🚀 Features
+## Features
 
 - **Fast TCP Port Scanning**: Efficient port scanning using raw sockets
 - **Hostname Resolution**: Automatic DNS resolution from hostnames to IP addresses
@@ -12,7 +12,7 @@ A robust command-line TCP port scanner written in C that demonstrates fundamenta
 - **Professional Output**: Clean, formatted output with scan summaries
 - **Cross-Platform**: Compatible with Linux, macOS, and other Unix-like systems
 
-## 🛠️ Technical Implementation
+## 🛠Technical Implementation
 
 ### Core Technologies
 - **C Programming Language**: Low-level systems programming
@@ -28,13 +28,13 @@ A robust command-line TCP port scanner written in C that demonstrates fundamenta
 - Command-line argument parsing
 - Memory management and buffer handling
 
-## 📋 Requirements
+## Requirements
 
 - GCC compiler (or any C99-compatible compiler)
 - POSIX-compliant operating system (Linux, macOS, BSD)
 - Basic networking libraries (usually included with system)
 
-## 🔧 Installation & Build
+## Installation & Build
 
 ### Quick Build
 ```bash
@@ -64,7 +64,7 @@ make test
 make help
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Basic Syntax
 ```bash
@@ -120,7 +120,7 @@ make help
 [+] Found 2 open ports
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 port-scanner/
@@ -129,7 +129,7 @@ port-scanner/
 └── README.md       # Project documentation (this file)
 ```
 
-## 🔍 How It Works
+## How It Works
 
 1. **Hostname Resolution**: The program uses `gethostbyname()` to resolve the target hostname into an IP address.
 
@@ -143,7 +143,7 @@ port-scanner/
 
 5. **Resource Cleanup**: Each socket is properly closed after the connection attempt to prevent resource leaks.
 
-## 🔒 Security & Ethics
+## Security & Ethics
 
 This tool is designed for:
 - **Educational purposes**: Learning networking concepts
@@ -152,7 +152,7 @@ This tool is designed for:
 
 **Important**: Only use this tool on networks and systems you own or have explicit permission to test. Unauthorized port scanning may violate computer abuse laws and network policies.
 
-## 🚧 Potential Enhancements
+## Potential Enhancements
 
 - **Multi-threading**: Parallel port scanning for faster results
 - **Service Detection**: Identify services running on open ports  
@@ -161,7 +161,7 @@ This tool is designed for:
 - **Stealth Scanning**: SYN scanning and other advanced techniques
 - **Rate Limiting**: Configurable scanning speed controls
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates proficiency in:
 
@@ -171,7 +171,7 @@ This project demonstrates proficiency in:
 - **Tool Development**: Creating practical network diagnostic utilities
 - **Code Organization**: Clean, maintainable, and well-documented code
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Permission Issues**:
 ```bash
@@ -190,11 +190,3 @@ brew install gcc                       # macOS
 - Ensure target hostname is reachable
 - Check firewall settings
 - Verify network connectivity
-
-## 📄 License
-
-This project is released under the MIT License - see the code for educational and professional use.
-
----
-
-**Created for demonstrating C programming and networking skills in systems engineering and network development roles.**
